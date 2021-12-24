@@ -3,6 +3,16 @@ entries:
   kconsumer:
   - apiVersion: v2
     appVersion: v0.2
+    created: "2021-12-24T19:42:51.730598783Z"
+    description: A trivial service to retrieve kafka topic entries
+    digest: e39ca87e3be40f8cfffe56b53058276bd3d30f4f6fe1bc670b1b88cf9ab8a207
+    name: kconsumer
+    type: application
+    urls:
+    - https://github.com/mdbdba/demo-helm-charts/releases/download/kconsumer-0.0.2/kconsumer-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: v0.2
     created: "2021-12-24T19:30:08.216389872Z"
     description: A trivial service to retrieve kafka topic entries
     digest: c858d07446f9b161608817fe4a3ade66e54e48b714e0b982b253360253b7010b
@@ -42,4 +52,4 @@ entries:
     urls:
     - https://github.com/mdbdba/demo-helm-charts/releases/download/kproducer-0.0.1/kproducer-0.0.1.tgz
     version: 0.0.1
-generated: "2021-12-24T19:30:08.216400972Z"
+generated: "2021-12-24T19:42:51.730631476Z"
