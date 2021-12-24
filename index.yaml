@@ -3,6 +3,16 @@ entries:
   kproducer:
   - apiVersion: v2
     appVersion: v0.1
+    created: "2021-12-24T04:15:40.507156714Z"
+    description: A trivial service to create kafka topic entries
+    digest: 56b1883f4371ee11dd27f29c07a8027a051c8a9ca1d6b794f856358251422e0e
+    name: kproducer
+    type: application
+    urls:
+    - https://github.com/mdbdba/demo-helm-charts/releases/download/kproducer-0.0.2/kproducer-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: v0.1
     created: "2021-12-24T02:49:44.594177563Z"
     description: A trivial service to create kafka topic entries
     digest: dcf03830a9de18e5156ff75ca7b5ba1a55d890bdf29c2902a1e603ac8bb9d3b2
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/mdbdba/demo-helm-charts/releases/download/kproducer-0.0.1/kproducer-0.0.1.tgz
     version: 0.0.1
-generated: "2021-12-24T02:49:44.594183263Z"
+generated: "2021-12-24T04:15:40.507171614Z"
