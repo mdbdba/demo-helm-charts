@@ -10,6 +10,14 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
 
+resources: 
+  limits:
+    cpu: 100m
+    memory: 64Mi
+  requests:
+    cpu: 100m
+    memory: 64Mi
+
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
@@ -46,7 +54,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: roller.local
+    - host: kproducer.local
       paths: []
   tls: []
 
